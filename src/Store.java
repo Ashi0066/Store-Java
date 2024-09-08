@@ -248,6 +248,11 @@ public class Store
 
     }
 
+
+    public void addProducts(String sku,InventoryItem item){
+        inventory.put(sku,item);
+    }
+
     public void stockAisles()
     {
 
